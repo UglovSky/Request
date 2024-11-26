@@ -1,0 +1,42 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    align-items: center
+}
+
+h1{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+form{
+    padding: 10px;
+    width: 300px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+ul{
+    margin-left: 20px;
+    color: darkslategray;
+
+}
+
+li{
+    margin-left: 20px;
+    list-style-type: none
+}
+
+a{
+    border: 2px solid black;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: black;
+}
+

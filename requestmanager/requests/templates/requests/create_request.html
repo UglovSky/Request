@@ -1,0 +1,14 @@
+{% extends 'requests/layout.html' %}
+
+{% block title %}Добавить заявку{% endblock %}
+
+{% block content %}
+    <h1>Создать заявку</h1>
+<div class="forms">
+    <form action="{% url 'create_request' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit">
+    </form>
+</div>
+{% endblock %}
